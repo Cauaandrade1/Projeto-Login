@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="imagens/pexels-javid-hashimov-18431195.jpg" alt="Foto de entrada">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <form action="login.js" method="post">
+
+                    <label for="usuario">US:</label>
+                    <input type="email" name="isuario" id="usuario" placeholder="Seu e-mail"><br>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="isenha" id="senha" placeholder="Sua senha"><br>
+
+                    <input type="submit" value="Entrar">
+                    <input type="reset" value="Esqueci a senha">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

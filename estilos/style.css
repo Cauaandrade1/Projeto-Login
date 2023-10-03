@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
+
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    background-attachment: fixed;
+}
+
+#formulario{
+    width: 60vw;
+    height: 20vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#formulario > p{
+        font-size: 0.95em;
+}
+
+
+img{
+    width: 60vw;
+    height: 20vh;
+}
