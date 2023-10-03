@@ -10,7 +10,6 @@
     <main>
         <section id="login">
             <div id="imagem">
-                <img src="imagens/pexels-javid-hashimov-18431195.jpg" alt="Foto de entrada">
             </div>
             <div id="formulario">
                 <h1>Login</h1>
@@ -18,10 +17,10 @@
                 <form action="login.js" method="post">
 
                     <label for="usuario">US:</label>
-                    <input type="email" name="isuario" id="usuario" placeholder="Seu e-mail"><br>
+                    <input type="email" name="isuario" id="usuario" placeholder="Seu e-mail" required><br>
 
                     <label for="senha">Senha:</label>
-                    <input type="password" name="isenha" id="senha" placeholder="Sua senha"><br>
+                    <input type="password" name="isenha" id="senha" placeholder="Sua senha" min="8" required><br>
 
                     <input type="submit" value="Entrar">
                     <input type="reset" value="Esqueci a senha">
