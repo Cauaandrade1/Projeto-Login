@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -16,12 +17,12 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="login.js" method="post">
 
-                    <label for="usuario">US:</label>
-                    <input type="email" name="isuario" id="usuario" placeholder="Seu e-mail" required><br>
-
-                    <label for="senha">Senha:</label>
-                    <input type="password" name="isenha" id="senha" placeholder="Sua senha" min="8" required><br>
-
+                    
+                    <input type="email" name="isuario" id="usuario" placeholder="Seu e-mail" required>
+                    <label for="usuario">Usuário</label><br>
+                    
+                    <input type="password" name="isenha" id="senha" placeholder="Sua senha" min="8" required>
+                    <label for="senha">Senha</label><br>
                     <input type="submit" value="Entrar">
                     <input type="reset" value="Esqueci a senha">
                 </form>
