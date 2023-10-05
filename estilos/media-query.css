@@ -6,6 +6,7 @@
     }
     #login{
         width: 80%;
+        height: 350px;
     }
     section#login > div#imagem{
         float: left;
@@ -24,14 +25,15 @@
     }
     #login{
         width: 900px;
+        height: 300px;
     }
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
 }
